@@ -1,0 +1,16 @@
+{
+    "name": "zhihu quick search",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "icons": {
+        "16": "icon.png"
+    },
+    "omnibox":{ "keyword": "zhihu"},
+    "background": {
+        "scripts": [
+            "js/omnibox.js",
+            "js/contextMenus.js"
+        ]
+    },
+    "permissions": ["contextMenus", "tabs"]
+}
